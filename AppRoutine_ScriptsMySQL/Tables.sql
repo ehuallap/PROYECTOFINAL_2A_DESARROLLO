@@ -25,14 +25,19 @@ CREATE TABLE IF NOT EXISTS Routines(
 ALTER TABLE Routines AUTO_INCREMENT = 1;
 
 CREATE TABLE IF NOT EXISTS Clients_Routines(
-	Routines_RoutineID INT NOT NULL,
-	Clients_ClientID INT NOT NULL,
-	PRIMARY KEY(Routines_RoutineID, Clients_ClientID),
-	CONSTRAINT fkClient_Routines_Client
-	FOREIGN KEY(Clients_ClientID)
-	REFERENCES Clients(ClientID),
-	CONSTRAINT fkClient_Client_Routines
-	FOREIGN KEY(Routines_RoutineID)
+	RoutineID INT NOT NULL,
+	ClientID INT NOT NULL,
+	PRIMARY KEY(RoutineID, ClientID),
+	CONSTRAINT fkRoutines_Client
+	FOREIGN KEY(ClientID)
+	REFERENCES Clients(ClientID)
+	ON UPDATE CASCADE
+    ON DELETE CASCADE,
+	CONSTRAINT fkClient_Routines
+	FOREIGN KEY(RoutineID)
 	REFERENCES Routines(RoutineID)
+	ON UPDATE NO ACTION
+    ON DELETE NO ACTION
 );
+
 ALTER TABLE Clients_Routines AUTO_INCREMENT = 1;
