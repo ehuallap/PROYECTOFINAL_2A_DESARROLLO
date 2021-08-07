@@ -1,24 +1,30 @@
-use appasistant;
+CREATE SCHEMA proyectassistant;
+USE proyectassistant;
+
+CREATE TABLE IF NOT EXISTS Clients(
+	ClientID INT AUTO_INCREMENT NOT NULL,
+	ClientName VARCHAR(100) NOT NULL,
+	ClientEmail VARCHAR(50) NOT NULL,
+    ClientRoutines INT NOT NULL,
+	PRIMARY KEY (ClientID)
+);
+ALTER TABLE Clients AUTO_INCREMENT = 1;
 
 CREATE TABLE IF NOT EXISTS Routines(
 	RoutineID INT AUTO_INCREMENT NOT NULL,
 	RoutineTitle VARCHAR(50) NOT NULL,
 	RoutineDescription TEXT,
-	RoutineStart VARCHAR(30) NOT NULL,
-	RoutineEnd VARCHAR(30) NOT NULL,	
+	RoutineStart DATE NOT NULL NOT NULL,
+	RoutineEnd DATE NOT NULL NOT NULL,
+    RoutineTime TIME NOT NULL,
+    CHECK (RoutineTime > 0),
+    RoutineClients INT NOT NULL,
 	PRIMARY KEY(RoutineID)
 );
+
 ALTER TABLE Routines AUTO_INCREMENT = 1;
 
-CREATE TABLE IF NOT EXISTS Clients(
-	ClientID INT AUTO_INCREMENT NOT NULL,	
-	ClientName VARCHAR(500) NOT NULL,
-	ClientEmail VARCHAR(300) NOT NULL,	
-	PRIMARY KEY (ClientID)
-);
-ALTER TABLE Clients AUTO_INCREMENT = 1;
-
-CREATE TABLE IF NOT EXISTS Clients_Events(
+CREATE TABLE IF NOT EXISTS Clients_Routines(
 	Routines_RoutineID INT NOT NULL,
 	Clients_ClientID INT NOT NULL,
 	PRIMARY KEY(Routines_RoutineID, Clients_ClientID),
@@ -27,7 +33,6 @@ CREATE TABLE IF NOT EXISTS Clients_Events(
 	REFERENCES Clients(ClientID),
 	CONSTRAINT fkClient_Client_Routines
 	FOREIGN KEY(Routines_RoutineID)
-	REFERENCES Events(RoutineID)
+	REFERENCES Routines(RoutineID)
 );
-ALTER TABLE Clients_Events AUTO_INCREMENT = 1;
-
+ALTER TABLE Clients_Routines AUTO_INCREMENT = 1;
