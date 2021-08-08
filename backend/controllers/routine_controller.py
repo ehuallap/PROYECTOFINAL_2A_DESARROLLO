@@ -13,17 +13,22 @@ model = RoutineModel()
 
 @routine_model.route('/routine/create_routine', methods=['POST'])
 @cross_origin()
-def create_client():
+def create_routine():
     content = model.create_routine(request.json['title'], request.json['description'], request.json['start'],
                                    request.json['end'], int(request.json['time']), int(request.json['clients']))
     return jsonify(content)
 
 @routine_model.route('/routine/get_routines', methods=['GET'])
 @cross_origin()
-def get_clients():
+def get_routines():
     return jsonify(model.get_routines())
+
+@routine_model.route('/routine/get_routine', methods=['POST'])
+@cross_origin()
+def get_routine():
+    return jsonify(model.get_routine(int(request.json['id'])))
 
 @routine_model.route('/routine/delete_routine', methods=['DELETE'])
 @cross_origin()
-def delete_client():
+def delete_routine():
     return jsonify(model.delete_routine(int(request.json['id'])))

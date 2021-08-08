@@ -19,10 +19,15 @@ def create_client():
 
 @clients_model.route('/client/get_clients', methods=['GET'])
 @cross_origin()
-def get_categories():
+def get_clients():
     return jsonify(model.get_clients())
+
+@clients_model.route('/client/get_client', methods=['POST'])
+@cross_origin()
+def get_client():
+    return jsonify(model.get_client(int(request.json['id'])))
 
 @clients_model.route('/client/delete_client', methods=['DELETE'])
 @cross_origin()
-def delete_category():
+def delete_client():
     return jsonify(model.delete_client(int(request.json['id'])))

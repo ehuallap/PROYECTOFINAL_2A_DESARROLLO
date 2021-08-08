@@ -32,6 +32,18 @@ class RoutineModel:
             content = {}
         return data
 
+    def get_routine(self, id):
+        params = {'id': id}
+        rv = self.mysql_pool.execute("SELECT * FROM Routines WHERE RoutineID = %(id)s", params)
+        data = []
+        content = {}
+        for result in rv:
+            content = {'ID': result[0], 'Title': result[1], 'Description': result[2], 'Starts at': str(result[3]),
+                       'Ends at': str(result[4]), 'Time': str(result[5]), 'Clients': result[6]}
+            data.append(content)
+            content = {}
+        return data
+
     def delete_routine(self, id):
         params = {'id': id}
         query = """DELETE FROM Routines WHERE RoutineID = %(id)s"""

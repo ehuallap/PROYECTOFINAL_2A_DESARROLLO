@@ -28,6 +28,17 @@ class ClientsModel:
             content = {}
         return data
 
+    def get_client(self, id):
+        params = {'id': id}
+        rv = self.mysql_pool.execute("SELECT * FROM Clients WHERE ClientID = %(id)s", params)
+        data = []
+        content = {}
+        for result in rv:
+            content = {'ID': result[0], 'Name': result[1], 'Email': result[2]}
+            data.append(content)
+            content = {}
+        return data
+
     def delete_client(self, id):
         params = {'id': id}
         query = """DELETE FROM Clients WHERE ClientID = %(id)s"""

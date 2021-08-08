@@ -19,4 +19,5 @@ VALUES
 SELECT * FROM Routines;
 SELECT * FROM Clients;
 SELECT * FROM Clients_Routines;
+SELECT * FROM Clients WHERE ClientID=6;
 DELETE FROM Clients WHERE ClientID=3;
