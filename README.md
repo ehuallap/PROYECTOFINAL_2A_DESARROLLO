@@ -13,11 +13,11 @@ las vacaciones o confinamientos como el provocado por la COVID-19..
 
 ## HERRAMIENTAS 🚀
 Las herramientas usadas para el proyecto son:
-    - Python
-    - MySql
-	- HTML
-	- JavaScript
-    - flask
+    * Python
+    * MySql
+	* HTML
+	* JavaScript
+    * Flask
 
 ## ESTRUCTURA, LENGUAJES Y FRAMEWORKS USADOS ✅
 _El proyecto esta basado en una estructura MVC._
@@ -39,9 +39,9 @@ _Tambien usamos MySQL para la base de datos_.
 
 ## Tablas de la Base de Tados
 Las tablas fueron hechas con MySQL y son:
-	*- Clients: Administra los datos de los clientes.
-	*- Clients_Routines: Toma los id de Clients y Routines para almacenarlos.
-	*- Routines: Administra los datos que puede tener una rutina.
+	* Clients: Administra los datos de los clientes.
+	* Clients_Routines: Toma los id de Clients y Routines para almacenarlos.
+	* Routines: Administra los datos que puede tener una rutina.
 
 
 ## Autores ✒️
