@@ -39,9 +39,9 @@ _Tambien usamos MySQL para la base de datos_.
 
 ## Tablas de la Base de Tados
 Las tablas fueron hechas con MySQL y son:
-	- Clients: Administra los datos de los clientes.
-	- Clients_Routines: Toma los id de Clients y Routines para almacenarlos.
-	- Routines: Administra los datos que puede tener una rutina.
+	*- Clients: Administra los datos de los clientes.
+	*- Clients_Routines: Toma los id de Clients y Routines para almacenarlos.
+	*- Routines: Administra los datos que puede tener una rutina.
 
 
 ## Autores ✒️
