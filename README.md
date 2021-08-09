@@ -22,7 +22,7 @@ las vacaciones o confinamientos como el provocado por la COVID-19..
 ## ESTRUCTURA, LENGUAJES Y FRAMEWORKS USADOS ✅
 _El proyecto esta basado en una estructura MVC._
 
-![flujo-mvc](https://user-images.githubusercontent.com/83198652/128777739-54f0a965-6cd3-42d0-a826-b60cb010d3dc.png)
+![mvc](https://user-images.githubusercontent.com/83198652/128783108-97b9af4f-b6ce-4cd3-ada8-adcae9b497ce.png)
 
 _Usamos Python para desarrollar el Backend._
 _El framework usado fue Flask._
