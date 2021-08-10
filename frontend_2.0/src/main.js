@@ -11,12 +11,30 @@ Vue.use(VueRouter)
 
 import Data from './components/Data'
 import User from './components/User'
+import HelloWorld from "./components/HelloWorld";
+
+const router = new VueRouter({
+  mode: 'history',
+  base: __dirname,
+  routes: [
+    {
+      path: '/',
+      component: User
+    },
+    {
+      path: '/data',
+      component: Data
+    },
+    {
+      path: '/hello',
+      component: HelloWorld
+    }
+  ]
+});
 
 Vue.config.productionTip = false
-
-/* eslint-disable no-new */
 new Vue({
-  el: '#app',
+  router,
   components: { App },
   template: '<App/>'
-})
+}).$mount('#app')

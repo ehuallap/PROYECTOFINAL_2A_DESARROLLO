@@ -1,20 +1,34 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <HelloWorld/>
-    <User/>
+    <!-- Router -->
+    <nav>
+      <ul>
+        <li>
+          <router-link to='/'> User </router-link>
+        </li>
+        <li>
+          <router-link to='/data'> Data </router-link>
+        </li>
+        <li>
+          <router-link to='/hello'> Hello </router-link>
+        </li>
+      </ul>
+    </nav>
+    <router-view></router-view> <!-- Esto se remplaza segun el componente seleccionado en el router-->
+    <!-- fin Router -->
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld'
-import Data from './components/Data'
-import User from './components/User'
+import HelloWorld from './components/HelloWorld';
+import Data from './components/Data';
+import User from './components/User';
 
 export default {
   name: 'App',
   components: {
     HelloWorld,
+    Data,
     User
   }
 }
