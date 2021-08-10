@@ -1,14 +1,16 @@
 **Table of Contents**
 
 [TOCM]
+
 [TOC]
-# ProyectAssistant
+
+#ProyectAssistant
 
 El siguiente proyecto denominado "ProyectAssistant" tiene el propósito de ayudar a los estudiantes de la Universidad Nacional de San Agustín mediante el uso
 de rutinas, ya que una rutina aporta grandes beneficios al bienestar emocional y psicológico, por lo que es importante mantenerlas incluso en situaciones como
 las vacaciones o confinamientos como el provocado por la COVID-19..
 
-## Pre-requisitos 📋
+##Pre-requisitos 📋
 
     - Cualquier navegador como:
 		-> Chrome
