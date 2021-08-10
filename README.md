@@ -1,9 +1,13 @@
 
 # ProyectAssistant
+## 1.Introduccion
 
 El siguiente proyecto denominado "ProyectAssistant" tiene el propósito de ayudar a los estudiantes de la Universidad Nacional de San Agustín mediante el uso
 de rutinas, ya que una rutina aporta grandes beneficios al bienestar emocional y psicológico, por lo que es importante mantenerlas incluso en situaciones como
-las vacaciones o confinamientos como el provocado por la COVID-19..
+las vacaciones o confinamientos como el provocado por la COVID-19.
+
+## 2.Objetivo
+Como objetivo principal del proyecto es brindar e ingresar rutinas que puedan favorecer al estudiante dentro de su horario que pueda considerar en su dia a dia. Así como incentivarlos y ayudarlos a programar su horario segun su actividad implementado dentro del sistema de actividades de ProyectAssistant.
 
 ## Pre-requisitos 📋
 
@@ -61,6 +65,7 @@ Codigo Frontend: [Frontend](https://github.com/ehuallap/PROYECTOFINAL_2A_DESARRO
 En primer lugar se tienen wireframes de cada pestaña: Inicio, Nosotros, Servicio, Video y Participacion.
 Los cuales cada uno nos lleva a conocer mas sobre el proyecto.
 #### Inicio
+
 #### Nosotros
 #### Servicio
 #### Video
