@@ -23,15 +23,14 @@ las vacaciones o confinamientos como el provocado por la COVID-19..
 
 ## ARQUITECTURA DE SOFTWARE, LENGUAJES Y FRAMEWORKS USADOS ✅
 _El proyecto tiene una arquitectura basada en una estructura MVC._
-
+_En donde el Modelo corresponde a los models relacionados a la base de datos, El controlador serian los endpoints generados llamados controllers y _
+_Finalmente la vista esta conformado por los htmls que son conectados al modelo, todo ello por mdio de frameworks como vue y flask._
 
 ![mvc](https://user-images.githubusercontent.com/83198652/128783108-97b9af4f-b6ce-4cd3-ada8-adcae9b497ce.png)
 
-_Usamos Python para desarrollar el Backend._
-_El framework usado para el Backend fue Flask._
-_Usamos JavaScript y HTML para desarrollar el Frontend._
-_El framework usado para el Frontend fue Vue._
-_Tambien usamos MySQL para la base de datos_.
+*_Usamos Python para desarrollar el Backend. El framework usado para el Backend fue Flask._
+*_Usamos JavaScript y HTML para desarrollar el Frontend. El framework usado para el Frontend fue Vue._
+*_Tambien usamos MySQL para la base de datos_.
 
 ## El Backend fue construido con 🛠️
 
