@@ -1,3 +1,9 @@
+**Table of Contents**
+
+[TOCM]
+
+[TOC]
+
 # ProyectAssistant
 
 El siguiente proyecto denominado "ProyectAssistant" tiene el propósito de ayudar a los estudiantes de la Universidad Nacional de San Agustín mediante el uso
@@ -20,8 +26,9 @@ las vacaciones o confinamientos como el provocado por la COVID-19..
     * Flask
     * Vue
 
-## ESTRUCTURA, LENGUAJES Y FRAMEWORKS USADOS ✅
-_El proyecto esta basado en una estructura MVC._
+## ARQUITECTURA DE SOFTWARE, LENGUAJES Y FRAMEWORKS USADOS ✅
+_El proyecto tiene una arquitectura basada en una estructura MVC._
+
 
 ![mvc](https://user-images.githubusercontent.com/83198652/128783108-97b9af4f-b6ce-4cd3-ada8-adcae9b497ce.png)
 
@@ -52,7 +59,6 @@ _Tambien usamos MySQL para la base de datos_.
 	* Clients_Routines: Toma los id de Clients y Routines para almacenarlos.
 	* Routines: Administra los datos que puede tener una rutina.
 [Base de Datos](https://github.com/ehuallap/PROYECTOFINAL_2A_DESARROLLO/tree/main/backend/mysql_scripts)
-`<link>` : <https://github.com/ehuallap/PROYECTOFINAL_2A_DESARROLLO/tree/main/backend/mysql_scripts>
 
 
 ## Autores ✒️
