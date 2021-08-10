@@ -1,7 +1,12 @@
 **Table of Contents**
 
 [TOCM]
+
 [TOC]
+
+#ProyectAssistant
+##Pre-requisitos
+
 # ProyectAssistant
 
 El siguiente proyecto denominado "ProyectAssistant" tiene el propósito de ayudar a los estudiantes de la Universidad Nacional de San Agustín mediante el uso
@@ -51,12 +56,6 @@ _Tambien usamos MySQL para la base de datos_.
 * [Vue](https://v3.vuejs.org/guide/introduction.html) - Framework para el Frontend
 
 ![frontend](https://user-images.githubusercontent.com/83198652/128801485-18c2b915-7717-4531-a937-a255dd6d8953.png)
-
-## Imagenes del Frontend
-
-![frontend1 png](https://user-images.githubusercontent.com/83198652/128820632-eb3b8cc4-6d33-4b95-b8de-3092de705a9b.jpg)
-![frontend2 png](https://user-images.githubusercontent.com/83198652/128820635-f86fef84-9459-4d71-87ca-3a7f1193146d.jpg)
-![frontend3 png](https://user-images.githubusercontent.com/83198652/128820639-bd2f913e-d60e-4d9c-874b-8af26e540b87.jpg)
 
 ## Tablas de la Base de Tados
 	* Clients: Administra los datos de los clientes.
