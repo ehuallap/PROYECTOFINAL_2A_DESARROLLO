@@ -17,8 +17,8 @@ class RoutineModel:
             values (%(title)s, %(description)s, %(start)s, %(end)s, %(time)s, %(clients)s)"""
         cursor = self.mysql_pool.execute(query, params, commit=True)
 
-        data = {'ID': cursor.lastrowid, 'Title': title, 'Description': description,
-                'Starts at': start, 'Ends at': end, 'Time': time, 'Clients': clients}
+        data = {'id': cursor.lastrowid, 'title': title, 'description': description,
+                'starts': start, 'ends': end, 'time': time, 'clients': clients}
         return data
 
     def get_routines(self):
@@ -26,8 +26,8 @@ class RoutineModel:
         data = []
         content = {}
         for result in rv:
-            content = {'ID': result[0], 'Title': result[1], 'Description': result[2], 'Starts at': str(result[3]),
-                       'Ends at': str(result[4]), 'Time': str(result[5]), 'Clients': result[6]}
+            content = {'id': result[0], 'title': result[1], 'description': result[2], 'starts': str(result[3]),
+                       'ends': str(result[4]), 'time': str(result[5]), 'clients': result[6]}
             data.append(content)
             content = {}
         return data
