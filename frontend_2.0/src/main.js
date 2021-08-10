@@ -12,6 +12,7 @@ Vue.use(VueRouter)
 import Data from './components/Data'
 import User from './components/User'
 import HelloWorld from "./components/HelloWorld";
+import Home from "./components/Home";
 
 const router = new VueRouter({
   mode: 'history',
@@ -19,7 +20,7 @@ const router = new VueRouter({
   routes: [
     {
       path: '/',
-      component: User
+      component: Home
     },
     {
       path: '/data',
