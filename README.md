@@ -70,10 +70,14 @@ como vemos en la pestaña: [Inicio](https://github.com/ehuallap/PROYECTOFINAL_2A
 Se muestra la informacion acerca de nosotros, nuestras caracteristicas y lo que necesitamos para el desarrollo para este tipo de aplicacion web.
 como vemos en la pestaña: [Nosotros](https://github.com/ehuallap/PROYECTOFINAL_2A_DESARROLLO/blob/main/2.jpeg)
 #### Servicio
+Aqui definimos el objetivo de la aplicacion web
+como vemos en la pestaña: [Servicio](https://github.com/ehuallap/PROYECTOFINAL_2A_DESARROLLO/blob/main/3.jpeg)
 
 #### Actividad
+Comenzamos a mostrar las actividades que podemos incluir en las rutinas diarias
+como vemos en la pestaña: [Actividad](https://github.com/ehuallap/PROYECTOFINAL_2A_DESARROLLO/blob/main/4.jpeg)
 
-
+De las actividades podemos ingresar una para elegir o por defecto la aplicacion nos brinda algunas, de las cuales podemos elegir al azar la rutina. 
 ## Autores ✒️
 
 * **ERICK KLENDORT HUALLA PUELLES** 
