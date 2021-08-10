@@ -1,20 +1,22 @@
 <template>
-<div class='users'>
-    <h2>Users</h2>
-    <ul>
-        <li v-for='user in users'>
-            {{user.Name}} - {{ user.Email }}
-            <button v-on:click='deleteUser(user)'>x</button>
-        </li>
-    </ul>
+    <div class='users'>
+        <h2>Users</h2>
+        <ul>
+            <li v-for='user in users'>
+                {{user.Name}} - {{ user.Email }}
+                <button v-on:click='deleteUser(user)'>x</button>
+            </li>
+        </ul>
 
-    <form v-on:submit='addUser'>
-    <!-- <form v-on:submit.prevent='addUser'> --> <!-- con esto prevenimo el comportamiento por defecto, la recarga de pagina al submit-->
-        <input type='text' v-model='newUser.name' placeHolder='name'>
-        <input type='email' v-model='newUser.email' placeHolder='email'>
-        <button type='submit'> Add </button>
-    </form> <br>
-</div>
+        <form v-on:submit='addUser'>
+        <!-- <form v-on:submit.prevent='addUser'> --> <!-- con esto prevenimo el comportamiento por defecto, la recarga de pagina al submit-->
+            <input type='text' v-model='newUser.name' placeHolder='name'>
+            <input type='email' v-model='newUser.email' placeHolder='email'>
+            <button type='submit'> Add </button>
+        </form> <br>
+
+    </div>
+
 </template>
 
 <script>
@@ -36,12 +38,21 @@ export default{
         deleteUser(user){
             this.users.splice(this.users.indexOf(user), 1);
             console.log('deleteUser');
-        }
+        },
+        async consumirApi(){
+            try {
+                const data = await fetch('http://127.0.0.1:5000/client/get_clients')
+                const array = await data.json()
+                console.log(array)
+                
+            } catch (error) {
+                console.log(error)
+            }
+        },
     },
     created(){ // este metodo se llama cuando se cra el componente
-        // con esto hacemos una peticion a un server
-        this.$http.get('http://localhost:5000/client/get_clients')
-            .then(res => this.users = res.body);
+        // con esto hacemos una peticion a un server.
+        this.consumirApi()
     }
 }
 </script>

@@ -3,6 +3,7 @@
 import Vue from 'vue'
 import App from './App'
 
+
 import VueResource from 'vue-resource'
 Vue.use(VueResource);
 
@@ -13,6 +14,8 @@ import Data from './components/Data'
 import User from './components/User'
 import HelloWorld from "./components/HelloWorld";
 import Home from "./components/Home";
+
+import Asistencia from 
 
 const router = new VueRouter({
   mode: 'history',
