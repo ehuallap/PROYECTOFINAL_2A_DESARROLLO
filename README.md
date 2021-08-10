@@ -64,7 +64,7 @@ Codigo Frontend: [Frontend](https://github.com/ehuallap/PROYECTOFINAL_2A_DESARRO
 En primer lugar se tienen wireframes de cada pestaña: Inicio, Nosotros, Servicio, Video y Participacion.
 Los cuales cada uno nos lleva a conocer mas sobre el proyecto.
 #### Inicio
-
+[Inicio](https://github.com/ehuallap/PROYECTOFINAL_2A_DESARROLLO/blob/main/1.jpeg)
 #### Nosotros
 #### Servicio
 #### Video
