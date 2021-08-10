@@ -1,12 +1,11 @@
-
 # ProyectAssistant
-## 1.Introduccion
+## 1. Introduccion
 
 El siguiente proyecto denominado "ProyectAssistant" tiene el propósito de ayudar a los estudiantes de la Universidad Nacional de San Agustín mediante el uso
 de rutinas, ya que una rutina aporta grandes beneficios al bienestar emocional y psicológico, por lo que es importante mantenerlas incluso en situaciones como
 las vacaciones o confinamientos como el provocado por la COVID-19.
 
-## 2.Objetivo
+## 2. Objetivo
 Como objetivo principal del proyecto es brindar e ingresar rutinas que puedan favorecer al estudiante dentro de su horario que pueda considerar en su dia a dia. Así como incentivarlos y ayudarlos a programar su horario segun su actividad implementado dentro del sistema de actividades de ProyectAssistant.
 
 ## Pre-requisitos 📋
@@ -16,7 +15,7 @@ Como objetivo principal del proyecto es brindar e ingresar rutinas que puedan fa
 		-> Microsoft Edge
 		-> Mozilla Firefox
 
-## HERRAMIENTAS 🚀
+## 3. HERRAMIENTAS 🚀
 
     * Python
     * MySql
@@ -25,7 +24,7 @@ Como objetivo principal del proyecto es brindar e ingresar rutinas que puedan fa
     * Flask
     * Vue
 
-## ARQUITECTURA DE SOFTWARE, LENGUAJES Y FRAMEWORKS USADOS ✅
+## 4. ARQUITECTURA DE SOFTWARE, LENGUAJES Y FRAMEWORKS USADOS ✅
 _El proyecto tiene una arquitectura basada en una estructura MVC. En donde el Modelo corresponde a los models relacionados a la base de datos, El controlador serian los endpoints generados llamados controllers y Finalmente la vista esta conformado por los htmls que son conectados al modelo, todo ello por mdio de frameworks como vue y flask._
 
 ![mvc](https://user-images.githubusercontent.com/83198652/128783108-97b9af4f-b6ce-4cd3-ada8-adcae9b497ce.png)
@@ -34,7 +33,7 @@ _El proyecto tiene una arquitectura basada en una estructura MVC. En donde el Mo
 * _Usamos JavaScript y HTML para desarrollar el Frontend. El framework usado para el Frontend fue Vue._
 * _Tambien usamos MySQL para la base de datos_.
 
-## El Backend fue construido con 🛠️
+### 4.1. El Backend fue construido con 🛠️
 
 * [Python](https://www.python.org/) - Lenguaje usado para el desarrollo
 * [Flask](https://flask.palletsprojects.com/en/2.0.x/) - El framework web usado
@@ -44,7 +43,7 @@ _El proyecto tiene una arquitectura basada en una estructura MVC. En donde el Mo
 
 Codigo Backend: [Backend](https://github.com/ehuallap/PROYECTOFINAL_2A_DESARROLLO/tree/main/backend)
 
-## El Frontend fue construido con 🛠️
+### 4.2. El Frontend fue construido con 🛠️
 
 * [JavaScript](https://www.w3schools.com/js/default.asp) - Lenguaje usado para el desarrollo
 * [HTML](https://www.w3schools.com/html/default.asp) - Usado para desarrollar el Frontend
@@ -54,7 +53,7 @@ Codigo Backend: [Backend](https://github.com/ehuallap/PROYECTOFINAL_2A_DESARROLL
 
 Codigo Frontend: [Frontend](https://github.com/ehuallap/PROYECTOFINAL_2A_DESARROLLO/tree/main/frontend_2.0)
 
-## Tablas de la Base de Tados
+### 4.3. Tablas de la Base de Tados
 	* Clients: Administra los datos de los clientes.
 	* Clients_Routines: Toma los id de Clients y Routines para almacenarlos.
 	* Routines: Administra los datos que puede tener una rutina.
