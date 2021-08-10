@@ -51,6 +51,7 @@ _Tambien usamos MySQL para la base de datos_.
 	* Clients: Administra los datos de los clientes.
 	* Clients_Routines: Toma los id de Clients y Routines para almacenarlos.
 	* Routines: Administra los datos que puede tener una rutina.
+	* https://github.com/ehuallap/PROYECTOFINAL_2A_DESARROLLO/tree/main/backend/mysql_scripts
 
 
 ## Autores ✒️
