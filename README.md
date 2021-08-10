@@ -1,9 +1,7 @@
 **Table of Contents**
 
 [TOCM]
-
 [TOC]
-
 # ProyectAssistant
 
 El siguiente proyecto denominado "ProyectAssistant" tiene el propósito de ayudar a los estudiantes de la Universidad Nacional de San Agustín mediante el uso
