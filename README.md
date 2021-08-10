@@ -18,6 +18,7 @@ las vacaciones o confinamientos como el provocado por la COVID-19..
     * HTML
     * JavaScript
     * Flask
+    * Vue
 
 ## ESTRUCTURA, LENGUAJES Y FRAMEWORKS USADOS ✅
 _El proyecto esta basado en una estructura MVC._
@@ -25,8 +26,9 @@ _El proyecto esta basado en una estructura MVC._
 ![mvc](https://user-images.githubusercontent.com/83198652/128783108-97b9af4f-b6ce-4cd3-ada8-adcae9b497ce.png)
 
 _Usamos Python para desarrollar el Backend._
-_El framework usado fue Flask._
+_El framework usado para el Backend fue Flask._
 _Usamos JavaScript y HTML para desarrollar el Frontend._
+_El framework usado para el Frontend fue Vue._
 _Tambien usamos MySQL para la base de datos_.
 
 ## El Backend fue construido con 🛠️
@@ -41,8 +43,9 @@ _Tambien usamos MySQL para la base de datos_.
 
 * [JavaScript](https://www.w3schools.com/js/default.asp) - Lenguaje usado para el desarrollo
 * [HTML](https://www.w3schools.com/html/default.asp) - Usado para desarrollar el Frontend
+* [Vue](https://v3.vuejs.org/guide/introduction.html) - Framework para el Frontend
 
-![frontend](https://user-images.githubusercontent.com/83198652/128779063-d6626027-e3dc-4912-8b76-4d376b490693.png)
+![frontend](https://user-images.githubusercontent.com/83198652/128801485-18c2b915-7717-4531-a937-a255dd6d8953.png)
 
 ## Tablas de la Base de Tados
 	* Clients: Administra los datos de los clientes.
