@@ -38,6 +38,8 @@ _El proyecto tiene una arquitectura basada en una estructura MVC. En donde el Mo
 
 ![Backend](https://user-images.githubusercontent.com/83198652/128778278-0ae5b7c2-4c7c-4d21-8292-e462ccd4b6a1.png)
 
+Codigo Backend: [Backend](https://github.com/ehuallap/PROYECTOFINAL_2A_DESARROLLO/tree/main/backend)
+
 ## El Frontend fue construido con 🛠️
 
 * [JavaScript](https://www.w3schools.com/js/default.asp) - Lenguaje usado para el desarrollo
@@ -46,13 +48,23 @@ _El proyecto tiene una arquitectura basada en una estructura MVC. En donde el Mo
 
 ![frontend](https://user-images.githubusercontent.com/83198652/128801485-18c2b915-7717-4531-a937-a255dd6d8953.png)
 
-Codigo Frontend: [Frontend](https://github.com/ehuallap/PROYECTOFINAL_2A_DESARROLLO/tree/main/backend)
+Codigo Frontend: [Frontend](https://github.com/ehuallap/PROYECTOFINAL_2A_DESARROLLO/tree/main/frontend_2.0)
 
 ## Tablas de la Base de Tados
 	* Clients: Administra los datos de los clientes.
 	* Clients_Routines: Toma los id de Clients y Routines para almacenarlos.
 	* Routines: Administra los datos que puede tener una rutina.
 [Base de Datos](https://github.com/ehuallap/PROYECTOFINAL_2A_DESARROLLO/tree/main/backend/mysql_scripts)
+
+## Manual de Usuario
+### Funcionamiento
+En primer lugar se tienen wireframes de cada pestaña: Inicio, Nosotros, Servicio, Video y Participacion.
+Los cuales cada uno nos lleva a conocer mas sobre el proyecto.
+#### Inicio
+#### Nosotros
+#### Servicio
+#### Video
+#### Participacion
 
 
 ## Autores ✒️
