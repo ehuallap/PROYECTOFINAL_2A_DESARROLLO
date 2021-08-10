@@ -61,14 +61,17 @@ Codigo Frontend: [Frontend](https://github.com/ehuallap/PROYECTOFINAL_2A_DESARRO
 
 ## Manual de Usuario
 ### Funcionamiento
-En primer lugar se tienen wireframes de cada pestaña: Inicio, Nosotros, Servicio, Video y Participacion.
+En primer lugar se tienen wireframes de cada pestaña: Inicio, Nosotros, Servicio, Actividad.
 Los cuales cada uno nos lleva a conocer mas sobre el proyecto.
 #### Inicio
-[Inicio](https://github.com/ehuallap/PROYECTOFINAL_2A_DESARROLLO/blob/main/1.jpeg)
+Como parte de la presentacion se muestra una idea de lo que realiza el proyecto, incentivando al uso de mas actividades para las rutinas y creacion de horarios.
+como vemos en la pestaña: [Inicio](https://github.com/ehuallap/PROYECTOFINAL_2A_DESARROLLO/blob/main/1.jpeg)
 #### Nosotros
+Se muestra la informacion acerca de nosotros, nuestras caracteristicas y lo que necesitamos para el desarrollo para este tipo de aplicacion web.
+como vemos en la pestaña: [Nosotros](https://github.com/ehuallap/PROYECTOFINAL_2A_DESARROLLO/blob/main/2.jpeg)
 #### Servicio
-#### Video
-#### Participacion
+
+#### Actividad
 
 
 ## Autores ✒️
