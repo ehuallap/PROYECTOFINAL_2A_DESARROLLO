@@ -17,15 +17,16 @@ Como objetivo principal del proyecto es brindar e ingresar rutinas que puedan fa
 
 ## 3. HERRAMIENTAS 🚀
 
-    * Python
-    * MySql
-    * HTML
-    * JavaScript
-    * Flask
-    * Vue
+    * IDE usado: Pycharm
+    * Lenguaje de programacion: Python
+    * Base de datos: MySql
+    * Lenguaje de presentacion: HTML
+    * Lenguaje de presentacion: JavaScript
+    * Framework: Flask
+    * Framework: Vue
 
 ## 4. ARQUITECTURA DE SOFTWARE, LENGUAJES Y FRAMEWORKS USADOS ✅
-_El proyecto tiene una arquitectura basada en una estructura MVC. En donde el Modelo corresponde a los models relacionados a la base de datos, El controlador serian los endpoints generados llamados controllers y Finalmente la vista esta conformado por los htmls que son conectados al modelo, todo ello por mdio de frameworks como vue y flask._
+_El proyecto tiene una arquitectura basada en una estructura MVC. En donde el Modelo corresponde a los models relacionados a la base de datos, El controlador serian los endpoints generados llamados controllers y Finalmente la vista esta conformado por los htmls que son conectados al modelo, todo ello por medio de frameworks como vue y flask._
 
 ![mvc](https://user-images.githubusercontent.com/83198652/128783108-97b9af4f-b6ce-4cd3-ada8-adcae9b497ce.png)
 
